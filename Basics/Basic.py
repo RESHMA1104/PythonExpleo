@@ -47,12 +47,6 @@ print(type(numc))
 numd = float(numc)
 print(numd)
 print(type(numd))
-name = input("Enter your name : ")
-age = int(input("Enter your age : "))
-print(name)
-print(age)
-print(type(age))
-print(type(name))
 fname = 'Janani'
 age = 21
 print(f"The name {fname} and age {age}")
