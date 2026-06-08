@@ -13,8 +13,8 @@ if ele.is_displayed():
     print("New User is Displayed")
 else:
     print("New User is not Displayed")
-driver.find_element(By.NAME, value="name").send_keys("RajuRajuS")
-driver.find_element(By.XPATH, value='//input[@data-qa="signup-email"]').send_keys("RajuRajuS12@gmail.com")
+driver.find_element(By.NAME, value="name").send_keys("RajuRajuSS")
+driver.find_element(By.XPATH, value='//input[@data-qa="signup-email"]').send_keys("RajuRajuS123@gmail.com")
 driver.find_element(By.XPATH, value='//button[normalize-space()="Signup"]').click()
 driver.find_element(By.ID, value="password").send_keys("RajuS@123")
 driver.find_element(By.ID, value="first_name").send_keys("Raju")
