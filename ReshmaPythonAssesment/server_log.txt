@@ -1,0 +1,2 @@
+Python is a Programming Language used to interact with computers
+It is a dynamic-typed Language

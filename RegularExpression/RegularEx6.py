@@ -1,0 +1,20 @@
+import re
+text = '''Alan Turing was pioneer of theoretical computer science and artificial intelligence. He was born on 23 June 1912 in Madia Vale, London'''
+res = re.search("theoretical", text)
+print("Match object = {}".format(res))
+print("-"*30)
+print("Group method output = ", res.group())
+print("-"*30)
+print("Start method output = ", res.start())
+print("-"*30)
+print("End method output = ", res.end())
+print("-"*30)
+print("Span method output = ", res.span())
+print("-"*30)
+print("re attribute output = ", res.re)
+print("-"*30)
+print("String attribute output = ", res.string)
+print("-"*30)
+text = r'search \\ in this string'
+res = re.search(r"\\", text)
+print("With r Prefix = ", res)
