@@ -16,4 +16,3 @@ class Marks(Student):
         print("Marks1 : ", self.__marks1)
         print("Marks2 : ", self.__marks2)
         print("Marks3 : ", self.__marks3)
-    def calculator()
